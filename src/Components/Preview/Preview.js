@@ -10,7 +10,7 @@ const Preview = (props) => {
             <h4>Player Selected:{selectedPlayers.length}</h4>
             <div className="listContainer">
         <div className="list">
-            <p>Selected Player Name :</p>
+            <p>Selected Players  Name :</p>
         <ol>
             {
        selectedPlayers.map(player =>  <li>{player.first_name  + " " + player.last_name}</li> )

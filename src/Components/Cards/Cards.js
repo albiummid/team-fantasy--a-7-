@@ -13,7 +13,7 @@ const Cards = (props) => {
                     <img src={image} alt="" />
                 </div>
                 <div className="details">
-                    <h3><span>{fullName}</span> </h3>
+                    <h4><span>{fullName}</span> </h4>
                     <hr/>
                     <p><FontAwesomeIcon icon={faUser} /> Team: <span>{team}</span> </p>
 
