@@ -1,0 +1,45 @@
+li{
+    color: purple;
+    font-size: 20px;
+}
+.listContainer{
+display:flex;
+justify-content:space-around
+}
+.list{
+    text-align:left;
+    font-weight: 400;
+}
+
+.preview h4{
+    text-align:center;
+    color:green;
+    margin-bottom: 50px;
+}
+.preview p{
+    font-weight: 700;
+    font-size:20px;
+    text-align:left;
+}
+.salary-card{
+    padding:20px;
+    width: 350px;
+    box-shadow: 5px 5px 10px gray;
+    display:grid;
+    grid-template-columns:250px 100px;
+    border-radius:10px;
+}
+.player{
+    text-align:right;
+
+}
+.money{
+   text-align:right;
+}
+.none{
+    display: none;
+}
+.preview{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
